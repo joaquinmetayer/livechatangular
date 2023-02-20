@@ -4,10 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MessageComponent } from './components/message/message.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { MessagesComponent } from './components/messages/messages.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CommonModule } from '@angular/common';
 
@@ -15,10 +13,8 @@ import { CommonModule } from '@angular/common';
   declarations: [
     AppComponent,
     MessageComponent,
-    NavbarComponent,
     HeroComponent,
     MessagesComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule,
